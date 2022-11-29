@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td><h1> CARRINHO DE COMPRAS </h1> </td>                       
+        </tr>
+        <tr>
+            <td><td><input type="button" value="+ Produtos"></td>
+        </tr>
+    </table>    
+        <table >
+            <tr>
+                <h3>PRODUTOS</h3><hr size="1" Align="left" width="35%">
+            </tr> 
+            <tr>                
+                <td><img src="./prod1.jpg"></td>   
+                <td><h3>PRODUTO 1</h3></td>             
+            </tr>
+            <tr>
+                <td><img src="./prod2.jpg"></td>   
+                <td><h3>PRODUTO 2</h3></td>               
+            </tr>
+            <tr>
+                <td><img src="./prod3.jpg"></td>                
+                <td><h3>PRODUTO 3</h3></td>  
+            </tr>
+        </table>   
+        <table > 
+            <tr>
+                <h3>RESUMO DO PEDIDO</h3><hr size="1" Align="left" width="35%">
+            </tr> 
+            <tr>
+                <td><label>Subtotal R$:</label></td>
+                <td><Input type="text" name="subtotal" disabled value="0,00"></Input></td>                     
+            </tr>
+            <tr>
+                <td><label>Frete R$:</label></td>
+                <td><Input type="text" name="frete" disabled value="0,00"></Input></td>                                     
+            </tr>
+            <tr>
+                <td width="25%"><label>Total geral R$:</label></td>
+                <td><Input type="text" name="total_geral" disabled value="0,00"></Input></td>                                                                     
+                <td width="20%"></td><td><button name="btn_paga">Ir para pagamento <br> (compra segura) </button></td>                                            
+            </tr>
+        </table>             
+    </form>    
+</body>
+</html>
